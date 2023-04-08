@@ -1,0 +1,258 @@
+@media only screen and (max-width:1025px){
+    header{
+        img.back{
+            display: none;
+        }
+        .header-content{
+            flex-wrap: wrap;
+            &-left{
+                margin: 0 auto;
+            }
+            &-img{
+                img{
+                    margin: 0 auto;        
+                }
+            }
+        }
+    }
+    .products{
+        .system{
+            ul{}
+            &-imgs{
+                flex-wrap: wrap;
+                .card{
+                    width: 32%;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .creative{
+            flex-wrap: wrap;
+            &-imgs{
+                height: 646px;
+                img{
+                    
+                }
+            }
+            &-info{
+                margin: 0 auto;
+            }
+        }
+    }
+    .availability{
+        .registration{
+            &-img{
+                .my-img{}
+            }
+            .registration-info{
+                form{
+                    .name{
+                        input{
+                            width: 150px;
+                        }
+                    }
+                    .address{
+                        input{
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+        .logotips{
+            flex-wrap: wrap;
+            .logo-img{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    header{
+        img.back{
+            display: none;
+        }
+        .header-content{
+            flex-wrap: wrap;
+            &-left{
+                margin: 0 auto;
+            }
+            &-img{
+                img{
+                    margin: 0 auto;        
+                }
+            }
+        }
+    }
+    .products{
+        .system{
+            ul{}
+            &-imgs{
+                flex-wrap: wrap;
+                justify-content: space-around !important;
+                .card{
+                    width: 50%;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .creative{
+            flex-wrap: wrap;
+            &-imgs{
+                display: none;
+                height: 646px;
+                img{
+                    
+                }
+            }
+            &-info{
+                margin: 0 auto;
+            }
+        }
+    }
+    .availability{
+        .colored-bags{
+            display: flex;
+            justify-content: space-around !important;
+            &-items{
+                img{}
+            }
+        }
+        .registration{
+            flex-wrap: wrap;
+            &-img{
+                margin: 0 auto;
+                .my-img{
+                }
+            }
+            .registration-info{
+                form{
+                    .name{
+                        input{
+                        }
+                    }
+                    .address{
+                        input{
+                        }
+                    }
+                }
+            }
+        }
+        .logotips{
+            flex-wrap: wrap;
+            .logo-img{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    footer{
+        .footer-content{
+            flex-wrap: wrap;
+            .footer-items{
+                margin-bottom: 50px;
+                width: 50%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:481px){
+    header{
+        img.back{
+            display: none;
+        }
+        .header-content{
+            flex-wrap: wrap;
+            &-left{
+                text-align: center;
+                margin: 0 auto;
+            }
+            &-img{
+                margin-top: 40px;
+                img{
+                    width: 450px;
+                    margin: 0 auto;        
+                }
+            }
+        }
+    }
+    .products{
+        .system{
+            ul{
+                display: flex;
+                flex-wrap: wrap !important;
+                li{
+                    margin-top: 50px;
+                }
+            }
+            &-imgs{
+                flex-wrap: wrap;
+                justify-content: space-around !important;
+                .card{
+                    width: 50%;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .creative{
+            flex-wrap: wrap;
+            &-imgs{
+                display: none;
+                height: 646px;
+                img{
+                    
+                }
+            }
+            &-info{
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+    }
+    .availability{
+        .colored-bags{
+            display: flex;
+            justify-content: space-around !important;
+            &-items{
+                img{}
+            }
+        }
+        .registration{
+            flex-wrap: wrap;
+            &-img{
+                width: 450px;
+                margin: 0 auto;
+                .my-img{
+                    width: 450px !important;
+                }
+            }
+            .registration-info{
+                form{
+                    .name{
+                        input{
+                        }
+                    }
+                    .address{
+                        input{
+                        }
+                    }
+                }
+            }
+        }
+        .logotips{
+            flex-wrap: wrap;
+            .logo-img{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    footer{
+        .footer-content{
+            flex-wrap: wrap;
+            .footer-items{
+                margin-left: 20px;
+                margin-bottom: 50px;
+                width: 100%;
+            }
+        }
+    }
+}
